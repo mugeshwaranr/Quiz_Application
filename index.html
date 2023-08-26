@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>MCQ Quiz</title>
+ <!-- Google Font -->
+ <link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+ rel="stylesheet"
+ />
+ <!-- Stylesheet -->
+ <link rel="stylesheet" href="index.css" /> </head>
+<body>
+ <div class="image">
+<div class="start-screen">
+ <button id="start-button">LOGIN</button>
+ 
+ </div>
+ <div id="display-container">
+ <div class="header">
+ <div class="number-of-count">
+<span class="number-of-question">1 of 5 questions</span>
+</div>
+ <div class="timer-div">
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-stopwatch-fill" viewBox="0 0 16 16">
+<path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07A7.001 7.001 0 0 0 8 16a7 7 0 0 0 5.29-11.584.531.531 0 0 0 .013-.012l.354-.354.353.354a.5.5 0 1 0 .707-.707l-1.414-1.415a.5.5 0 1 0-.707.707l.354.354-.354.354a.717.717 0 0 0-.012.012A6.973 6.973 0 0 0 9 2.071V1h.5a.5.5 0 0 0 0-1h-3zm2 5.6V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 1 1 1 0z"/>
+ </svg>
+ <span class="time-left">15s</span>
+ </div>
+ </div>
+ <div id="container">
+ <!-- questions and options will be displayed here -->
+ </div>
+ <button id="next-button">Next</button>
+ </div>
+ <div class="score-container hide">
+ <div id="user-score">Demo Score</div>
+ <button id="restart">Restart</button>
+ </div>
+ <!-- Script -->
+ <script src="index.js"></script>
+ </div>
+ </body>
+</html>
+

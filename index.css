@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+ 
+  
+  .start-screen,
+  .score-container {
+  
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  button {
+    background-color: rgb(96, 73, 19);
+    border: rgb(73, 73, 119);
+    outline: grey;
+    cursor: pointer;
+  }
+  #start-button,
+  #restart {
+    font-size: 1.6em;
+    padding: 0.5em 1.8em;
+    border-radius: 0.1em;
+  }
+  #restart {
+    margin-top: 0.9em;
+  }
+  #display-container {
+    background-color: lighter;
+    padding: 3.1em 1.8em;
+    width: 80%;
+    max-width: 37.5em;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.6em;
+  }
+  .header {
+    margin-bottom: 1.8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.6em;
+    border-bottom: 0.1em solid #949644;
+  }
+  .timer-div {
+    background-color: wheat;
+    width: 7.5em;
+    border-radius: 1.8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.79em 2.5em;
+  }
+  .question {
+    margin-bottom: 1.25em;
+    font-weight: 600;
+  }
+  .option-div {
+    font-size: 0.9em;
+    width: 100%;
+    padding: 1em;
+    margin: 0.3em 0;
+    text-align: left;
+    outline: white;
+    background: transparent;
+    border: 1px solid whitesmoke;
+    border-radius: 0.3em;
+  }
+  .option-div:disabled {
+    color: #eeeff0;
+    cursor: not-allowed;
+  }
+  #next-button {
+    font-size: 1em;
+    margin-top: 1.5em;
+    background-color: #8f613d;
+    color: #ffffff;
+    padding: 0.7em 1.8em;
+    border-radius: 0.3em;
+    float: right;
+  }
+  .hide {
+    display: none;
+  }
+  .incorrect {
+    background-color: #bb2424;
+    color: #cf0808;
+    border-color: #ee0e0e;
+  }
+  .correct {
+    background-color: #9cd25b;
+    color: #7fda30;
+    border-color: #689f38;
+  }
+  #user-score {
+    font-size: 1.5em;
+    color: #7e3c61;
+  }
+  .image{
+   background-image: url(https://images.pexels.com/photos/1187974/pexels-photo-1187974.jpeg?auto=compress&cs=tinysrgb&w=600);
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    color: white;
+  }
